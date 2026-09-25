@@ -1,0 +1,39 @@
+ training_status | records | productivity_units_per_hour | picking_accuracy_pct | avg_processing_minutes 
+-----------------+---------+-----------------------------+----------------------+------------------------
+ Completed       |   10221 |                       12.81 |                97.28 |                  23.03
+ Pending         |    2220 |                       11.51 |                96.24 |                  24.55
+(2 rows)
+
+ warehouse_zone | records | productivity_units_per_hour | picking_accuracy_pct | avg_processing_minutes 
+----------------+---------+-----------------------------+----------------------+------------------------
+ Zone C         |    3033 |                       12.54 |                97.08 |                  23.25
+ Zone D         |    3083 |                       12.58 |                97.10 |                  23.34
+ Zone B         |    3181 |                       12.59 |                97.12 |                  23.24
+ Zone A         |    3144 |                       12.59 |                97.13 |                  23.39
+(4 rows)
+
+ experience_band | records | productivity_units_per_hour | picking_accuracy_pct | avg_processing_minutes 
+-----------------+---------+-----------------------------+----------------------+------------------------
+ 0-11 months     |    1923 |                       11.64 |                96.71 |                  23.21
+ 12-23 months    |    2118 |                       12.07 |                97.06 |                  23.22
+ 24-47 months    |    4140 |                       12.75 |                97.18 |                  23.32
+ 48+ months      |    4260 |                       13.09 |                97.22 |                  23.37
+(4 rows)
+
+ experience_band | training_status | records | productivity_units_per_hour | picking_accuracy_pct | avg_processing_minutes 
+-----------------+-----------------+---------+-----------------------------+----------------------+------------------------
+ 0-11 months     | Completed       |    1391 |                       11.94 |                96.97 |                  22.71
+ 0-11 months     | Pending         |     532 |                       10.87 |                95.99 |                  24.51
+ 12-23 months    | Completed       |    1576 |                       12.34 |                97.28 |                  22.73
+ 12-23 months    | Pending         |     542 |                       11.28 |                96.36 |                  24.65
+ 24-47 months    | Completed       |    3403 |                       12.95 |                97.36 |                  23.07
+ 24-47 months    | Pending         |     737 |                       11.82 |                96.27 |                  24.49
+ 48+ months      | Completed       |    3851 |                       13.19 |                97.31 |                  23.24
+ 48+ months      | Pending         |     409 |                       12.11 |                96.31 |                  24.60
+(8 rows)
+
+ night_shift_records | productivity_units_per_hour | picking_accuracy_pct | avg_processing_minutes | total_overtime_hours 
+---------------------+-----------------------------+----------------------+------------------------+----------------------
+               12441 |                       12.58 |                97.11 |                  23.30 |              3466.83
+(1 row)
+
